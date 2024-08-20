@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF-8 "
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TEST</title>
+  </head>
+  <body>
+    <a id="scroll-target-top" class="scroll-to"></a>
+    <div class="header">
+      <div class="conteiner">
+        <div class="header-line">
+          <div class="header-logo">
+            <img src="logo.png" alt="" />
+          </div>
+          <div class="nav">
+            <a class="nav-item" href="@">КВАРТИРЫ</a>
+            <a class="nav-item" href="@">ИПОТЕКА</a>
+            <a class="nav-item" href="@">ДОКУМЕНТЫ</a>
+            <a class="nav-item" href="@">КОНТАКТЫ</a>
+            <a class="nav-item" href="@">ОЦЕНКА НЕДВИЖИМОСТИ</a>
+          </div>
+          <div class="arrow-and-phone">
+            <div class="arrow-first">
+              <a href="@">
+                <img src="arrow.png" alt="" />
+              </a>
+            </div>
+            <div class="phone">
+              <a class="num" href="@">+7 391 271-40-20</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-down">
+        <div class="main-bg-text">
+          <div class="offer">
+            Спеццена: <br />
+            готовая 4-комн 124 м<sup>2</sup> <br />
+            за 10,8 млн
+          </div>
+          <div class="near">рядом с центром Красноярска</div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-desc">
+              <div class="card-image" id="cardImage">
+                <img class="card-img" src="card.png" alt="Card Image" />
+              </div>
+
+              <div class="overlay" id="overlay"></div>
+
+              <div class="popup" id="popup">
+                <div class="popup-content">
+                  <span class="close-button" id="closeButton">&times;</span>
+                  <form>
+                    <input
+                      class="input-name"
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Ваше имя"
+                    />
+                    <input
+                      class="input-number"
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      placeholder="Телефон"
+                    />
+                    <div class="agree-form">
+                      <div>
+                        <input
+                          class="agreement-icon-style"
+                          type="checkbox"
+                          id="scales"
+                          name="scales"
+                          checked
+                        />
+                      </div>
+                      <div class="agree-form-text">
+                        Я согласен на обработку моих персональных данных
+                      </div>
+                    </div>
+
+                    <img
+                      src="send-button.svg"
+                      id="sendButton"
+                      class="send-button"
+                    />
+                  </form>
+                </div>
+              </div>
+              <script src="script-form.js"></script>
+              <div class="mouse-scroll-icon">
+                <a href="#scroll-target" class="mouse">
+                  <img class="mouse-img" src="mouse.png" alt="Mouse" />
+                  <img class="wheel-img" src="wheel.png" alt="Wheel" />
+                </a>
+                <div class="arrow-down">
+                  <img class="arrow-down-img" src="arrow down.png" />
+                </div>
+              </div>
+              <div class="cards-description">
+                Novella начинается на улице Копылова, 19.<br />Рядом с центром
+                Красноярска, в красивом<br />месте с видом на город и Енисей.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="green-block">
+          <div class="of-us">
+            Каждый из нас — автор истории собственной жизни. А чтобы
+            случиться,<br />любой истории нужно подходящее место. В Красноярске
+            мы нашли идеальное<br />место для по-настоящему счастливого сюжета.
+            Это Дом Novella.
+          </div>
+        </div>
+        <a id="scroll-target" class="scroll-to"></a>
+        <div class="advantages">
+          <div class="intimacy">
+            <div class="intimacy-img"><img src="intimacy.png" alt="" /></div>
+            <div class="info-intimacy">
+              <div class="icon-intimacy">
+                <img src="icon-intimacy.png" alt="" />
+              </div>
+
+              <div class="headline-intimacy">Близость к центру города</div>
+
+              <div class="text-intimacy">
+                Дом расположен в непосредственной близости к центру города,
+                который открывает массу возможностей для отдыха и культурного
+                времяпровождения. Театры, кафе и рестораны, набережная реки
+                Енисей, Центральный парк, да и просто прогулки по оживленным
+                улицам центра станут неотъемлемой частью вашей жизни. Ведь все
+                близко.
+              </div>
+            </div>
+          </div>
+          <div class="infrastructure">
+            <div class="info-infrastructure">
+              <div class="icon-infrastructure">
+                <img src="icon-infrastructure.png" alt="" />
+              </div>
+
+              <div class="headline-infrastructure">Готовая инфраструктура</div>
+
+              <div class="text-infrastructure">
+                Рядом 7 частных и муниципальных детских садов. 5 школ, лицеев и
+                гимназий. В их числе престижная университетская гимназия
+                «Универс». В пешеходной доступности два торговых центра
+                «Апельсин» и «Славянский», спортивный комплекс «Экселент» с
+                бассейном 25 метров.
+              </div>
+            </div>
+            <div class="infrastructure-img"><img src="infr.png" alt="" /></div>
+          </div>
+          <div class="complex">
+            <div class="complex-img">
+              <video width="640" height="400" controls>
+                <source
+                  src="https://www.youtube.com/watch?v=B5RLsVj4y6E"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="info-complex">
+              <div class="icon-complex">
+                <img src="icon-complex.png" alt="" />
+              </div>
+
+              <div class="headline-complex">Жилой комплекс с высоты</div>
+
+              <div class="text-complex">
+                Любоваться Novella можно с самых разных точек города. Дом
+                прекрасно виден даже в темное время суток — сложно не заметить
+                красивый светящийся логотип. В видео мы постарались передать
+                атмосферу жилого комплекса!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="classic-subject">
+          <div class="headline-classic">
+            <div class="headline-title">КЛАССИЧЕСКИЙ СЮЖЕТ</div>
+            <div class="headline-description">
+              Novella — дом в лучших<br />традициях комфорт-класса
+            </div>
+          </div>
+          <div class="card-point">
+            <div class="card-point-tech">
+              <div class="headline-point-tech">
+                <div class="headline-point-tech-img">
+                  <img src="tech.png" alt="" />
+                </div>
+                <div class="headline-point-tech-text">
+                  Технология строительства
+                </div>
+              </div>
+              <div class="point-tech-text">
+                Дом построен из кирпича, ширина стен — 1 метр. Чтобы Novella
+                гармонично вписалась в архитектурный ансамбль города,
+                использован навесной фасад в пастельных зеленых оттенках.
+              </div>
+              <div class="point-tech-img">
+                <img src="tech-img.png" alt="" />
+              </div>
+            </div>
+
+            <div class="card-point-seck">
+              <div class="headline-point-seck">
+                <div class="headline-point-seck-img">
+                  <img src="seck.png" alt="" />
+                </div>
+                <div class="headline-point-seck-text">Безопасный двор</div>
+              </div>
+              <div class="point-seck-text">
+                У дома оборудована воркаут-зона и две игровые площадки: внутри
+                двора расположена площадка для малышей, рядом — большая площадка
+                для детей постарше. От улицы Копылова они закрыты
+                шумоподавляющим ограждением.
+              </div>
+              <div class="point-seck-img">
+                <img src="seck-img.png" alt="" />
+              </div>
+            </div>
+
+            <div class="card-point-entr">
+              <div class="headline-point-entr">
+                <div class="headline-point-entr-img">
+                  <img src="entr.png" alt="" />
+                </div>
+                <div class="headline-point-entr-text"><h3>Подъезды</h3></div>
+              </div>
+              <div class="point-entr-text">
+                В каждом подъезде оборудовано место для консьержа и установлены
+                современные лифты. Дизайн холлов выполнена в классическом стиле,
+                лестницы отделаны практичным керамогранитом.
+              </div>
+              <div class="point-entr-img">
+                <img src="entr-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="author-block">
+          <div class="headline-author-block">
+            <div class="headline-author-title">АВТОРСКОЕ РЕШЕНИЕ</div>
+            <div class="headline-author-description">
+              Novella вдохновляет<br />дизайнеров
+            </div>
+          </div>
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slider-wrapper">
+                <div class="slider-item">
+                  <img src="slide1.png" alt="" />
+                </div>
+                <div class="slider-item">
+                  <img src="slide2.png" alt="" />
+                </div>
+                <div class="slider-item">
+                  <img src="slide3.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="arrow left-arrow" id="left-arrow">&#10094;</div>
+            <div class="arrow right-arrow" id="right-arrow">&#10095;</div>
+            <div class="central-slide">
+              <div class="slider-dots"></div>
+              <img id="central-image" src="slide1.png" alt="" />
+            </div>
+          </div>
+          <a href="#scroll-target-top">
+            <div class="arrow-to-top">
+              <img
+                class="icon-to-top-arrow"
+                src="icon-to-top-arrow.svg"
+                alt=""
+              />
+              <img class="icon-to-top" src="icon-to-top.svg" alt="" />
+            </div>
+          </a>
+          <script src="script.js"></script>
+        </div>
+
+        <div class="info-block-down">
+          <div class="left-info-block-down">
+            <div class="headline-left-info-block-down">
+              <img src="region.png" alt="" />
+              <div class="office">
+                <div class="office-text">Офис продаж:</div>
+                <div class="office-number">+7 391 271-40-20</div>
+              </div>
+            </div>
+            <div class="adress">
+              г. Красноярск, <br />
+              ул. Молокова д. 1 копр. 1, оф. 178, 1 этаж
+            </div>
+            <div class="work-time">График работы офиса продаж:</div>
+            <div class="shedule">
+              В будни с 9:00 до 18:00 <br />
+              Суббота, воскресенье выходной
+            </div>
+            <div class="social-icons">
+              <img src="vk-icon.png" alt="" />
+              <img src="youtube-icon.png" alt="" />
+              <img src="classmates-icon.png" alt="" />
+              <img src="telegramm-icon.png" alt="" />
+            </div>
+          </div>
+          <div class="right-info-block-down">
+            <div class="headline-right-info-block-down">
+              Хочу первым узнавать<br />новости
+            </div>
+            <div class="email-right-info-block-down">
+              <input
+                class="text-field__input"
+                type="text"
+                name="Email"
+                id="Email"
+                placeholder="Введите Email"
+              />
+              <img class="follow-button" src="follow-button.svg" alt="" />
+            </div>
+            <div class="agreement-right-info-block-down">
+              <div class="areement-icon">
+                <input
+                  class="agreement-icon-style"
+                  type="checkbox"
+                  id="scales"
+                  name="scales"
+                  checked
+                />
+              </div>
+              <div class="agreement-text">
+                Я согласен на обработку моих персональных<br />данных
+              </div>
+            </div>
+            <div class="info-bottom-end">
+              Вся размещенная информация на сайте носит исключительно
+              информационный характер и ни при каких условиях не является
+              публичной офертой, определяемой положениями статьи 437 ГК РФ.
+              Визуализации объектов являются ориентировочными. Застройщик вправе
+              вносить изменения в проекты в соответствии с действующим
+              законодательством. Вся размещенная информация на сайте носит
+              исключительно информационный характер и ни при каких условиях не
+              является публичной офертой, определяемой положениями статьи 437 ГК
+              РФ.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Мобильная версия -->
+    <div class="header-mob">
+      <div class="header-menu-mob">
+        <img class="logo-mob" src="logo-mob.svg" />
+        <div class="icons-mob">
+          <img class="tele-icon-mob" src="tele-icon-mob.svg" />
+          <img class="menu-icon-mob" src="menu-icon-mob.svg" id="menuIcon" />
+          <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.getElementById('menuIcon');
+    const closeIcon = document.getElementById('closeIcon');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    // Открытие меню
+    menuIcon.addEventListener('click', function() {
+      mobileMenu.classList.add('active');
+    });
+
+    // Закрытие меню
+    closeIcon.addEventListener('click', function() {
+      mobileMenu.classList.remove('active');
+    });
+  });
+          </script>
+        </div>
+        <div id="mobileMenu" class="mobile-menu">
+          <div class="header-menu-mob">
+            <img class="logo-mob" src="logo-mob.svg" />
+            <div class="icons-mob">
+              <img class="tele-icon-mob" src="tele-icon-mob.svg" />
+              <img class="tele-icon-mob" src="close-icon.svg" id="closeIcon" />
+            </div>
+          </div>
+          <div class="menu-cent-mob">
+            <a class="menu-para" href="#">ЗАСТРОЙЩИК</a>
+            <a class="menu-para" href="#">КВАРТИРЫ</a>
+            <a class="menu-para" href="#">ИПОТЕКА</a>
+            <a class="menu-para" href="#">ДОКУМЕНТЫ</a>
+            <a class="menu-para" href="#">КОНТАКТЫ</a>
+          </div>
+          <div class="bottom-menu-mob">
+          <div class="geo-mob-menu">
+            <img class="geo-icon-mob" src="geo-icon.svg" alt="" />
+            <div class="geo-text-mob">Офис продаж:</div>
+          </div>
+          <div class="number-mob">
+            <div class="left-number-mob">+7 391</div>
+            <div class="right-number-mob">271-40-20</div>
+          </div>
+          <div class="adress-mob">
+            г. Красноярск,  ул. Молокова д. 1 копр. 2, оф. 153, 1 этаж
+          </div>
+          <div class="schedul-mob">
+            График работы офиса продаж:
+          </div>
+          <div class="work-time-mob">
+            В будни с 9:00 до 18:00 
+            Суббота, воскресенье выходной
+          </div>
+          <div class="social-icons">
+            <img src="vk-icon.png" alt="" />
+            <img src="youtube-icon.png" alt="" />
+            <img src="classmates-icon.png" alt="" />
+            <img src="telegramm-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-mob">
+        <div class="main-info-block-mob">
+          <div class="special-price-info">
+            Спеццена: <br />готовая 4‑комн 124 м² за 10,8 млн
+          </div>
+          <div class="special-info">рядом с центром Красноярска</div>
+        </div>
+        <div class="more-info-block-mob">
+          <div class="more-info-button-mob">
+            <img class="info-button-mob" src="card.png" />
+          </div>
+          <div class="more-info-mob">
+            Novella начинается на улице Копылова, 19. Рядом с центром
+            Красноярска, в красивом месте с видом на город и Енисей.
+          </div>
+        </div>
+        <div class="green-block-mob">
+          Каждый из нас — автор истории собственной жизни. А чтобы случиться,
+          любой истории нужно подходящее место.
+          <br /><br />
+          В красноясрке мы нашли идеальное место для по-настоящему счастливого
+          сюжета. Это Дом Novella.
+        </div>
+        <div class="advantages-block-mob">
+          <!-- Блок "БЛИЗОСТЬ К ГОРОДУ"-->
+          <div class="near-block-mob">
+            <img class="img-near-block-mob" src="img-near-block-mob.svg" />
+            <img
+              class="img-complex-block-mob"
+              src="background-green-block.svg"
+            />
+            <div class="headline-near-block-mob">
+              <img class="icon-near-block-mob" src="icon-intimacy.png" />
+              <div class="text-near-block-mob">БЛИЗОСТЬ К ЦЕНТРУ ГОРОДА</div>
+            </div>
+            <div class="info-near-block-mob">
+              Дом расположен в непосредственной близости к центру города,
+              который открывает массу возможностей для отдыха и культурного
+              времяпровождения. Театры, кафе и рестораны, набережная реки
+              Енисей, Центральный парк, да и просто прогулки по оживленным
+              улицам центра станут неотъемлемой частью вашей жизни. Ведь все
+              близко.
+            </div>
+          </div>
+          <!-- Блок "Готовая инфраструктура"-->
+          <div class="infrastructure-block-mob">
+            <img
+              class="img-infrastructure-block-mob"
+              src="img-infrastructure-block-mob.svg"
+            />
+            <img
+              class="bg-infrastructure-block-mob"
+              src="background-green-block.svg"
+            />
+            <div class="headline-infrastructure-block-mob">
+              <img
+                class="icon-infrastructure-block-mob"
+                src="icon-infrastructure.png"
+              />
+              <div class="text-infrastructure-block-mob">
+                ГОТОВАЯ ИНФРАСТРУКТУРА
+              </div>
+            </div>
+            <div class="info-infrastructure-block-mob">
+              Рядом 7 частных и муниципальных детских садов. 5 школ, лицеев и
+              гимназий. В их числе престижная университетская гимназия
+              «Универс». В пешеходной доступности два торговых центра «Апельсин»
+              и «Славянский», спортивный комплекс «Экселент» с бассейном 25
+              метров.
+            </div>
+          </div>
+          <!-- Блок "Жилой комплекст с высоты"-->
+          <div class="complex-block-mob">
+            <img
+              class="img-complex-block-mob"
+              src="background-green-block.svg"
+            />
+            <video width="317" height="224" controls>
+              <source
+                src="https://www.youtube.com/watch?v=B5RLsVj4y6E"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div class="headline-complex-block-mob">
+              <img class="icon-complex-block-mob" src="icon-complex.png" />
+              <div class="text-complex-block-mob">ЖИЛОЙ КОМПЛЕКС С ВЫСОТЫ</div>
+            </div>
+            <div class="info-complex-block-mob">
+              Любоваться Novella можно с самых разных точек города. Дом
+              прекрасно виден даже в темное время суток — сложно не заметить
+              красивый светящийся логотип. В видео мы постарались передать
+              атмосферу жилого комплекса!
+            </div>
+          </div>
+        </div>
+        <div class="classic-subject-mob">
+          <div class="headline-classic-mob">КЛАССИЧЕСКИЙ <br />СЮЖЕТ</div>
+          <div class="classic-img-bg">
+            <img
+              class="classic-bg-mob"
+              src="classic-img-bg.png"
+              alt="classic-img-bg-mob"
+            />
+          </div>
+          <div class="classic-info-mob">
+            Novella — дом в лучших<br />
+            традициях комфорт-класса
+          </div>
+        </div>
+        <div class="brief-inf-mob">
+          <!-- Блок Тенхологии строительства -->
+          <div class="tech-block-mob">
+            <img class="tech-mob-icon" src="tech.png" alt="tech-mob" />
+            <div class="headline-tech-info-mob">Технология строительства</div>
+            <div class="tech-info-mob">
+              Дом построен из кирпича, ширина стен — 1 метр. Чтобы Novella
+              гармонично вписалась в архитектурный ансамбль города, использован
+              навесной фасад в пастельных зеленых оттенках.
+            </div>
+          </div>
+          <!-- Блок Безопасный двор -->
+          <div class="safety-block-mob">
+            <img class="safety-mob-icon" src="seck.png" alt="safety-mob" />
+            <div class="headline-safety-info-mob">Безопасный двор</div>
+            <div class="safety-info-mob">
+              У дома оборудована воркаут-зона и две игровые площадки: внутри
+              двора расположена площадка для малышей, рядом — большая площадка
+              для детей постарше. От улицы Копылова они закрыты шумоподавляющим
+              ограждением.
+            </div>
+          </div>
+          <!-- Блок Подъезды -->
+          <div class="entr-block-mob">
+            <img class="entr-mob-icon" src="entr.png" alt="entr-mob" />
+            <div class="headline-entr-info-mob">Подъезды</div>
+            <div class="entr-info-mob">
+              В каждом подъезде оборудовано место для консьержа и установлены
+              современные лифты. Дизайн холлов выполнена в классическом стиле,
+              лестницы отделаны практичным керамогранитом.
+            </div>
+          </div>
+        </div>
+        <div class="author-mob">
+          <div class="headline-author-mob">АВТОРСКОЕ РЕШЕНИЕ</div>
+          <div class="headline-novella-mob">Novella вдохновляет дизайнеров</div>
+        </div>
+        <div class="slider-mob">
+          <div class="slides-mob">
+            <div class="slide-mob">
+              <img class="slide-img-param-mob" src="slide1.png" alt="" />
+            </div>
+            <div class="slide-mob">
+              <img class="slide-img-param-mob" src="slide2.png" alt="" />
+            </div>
+            <div class="slide-mob">
+              <img class="slide-img-param-mob" src="slide3.png" alt="" />
+            </div>
+          </div>
+          <button class="prev-mob" onclick="prevSlide()">
+            <img src="arrow-mob.svg" alt="" />
+          </button>
+          <button class="next-mob" onclick="nextSlide()">
+            <img src="arrow-mob.svg" alt="" />
+          </button>
+          <div class="dots-mob">
+            <span class="dot-mob" onclick="currentSlide(1)"></span>
+            <span class="dot-mob" onclick="currentSlide(2)"></span>
+            <span class="dot-mob" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+
+          function nextSlide() {
+            showSlides((slideIndex += 1));
+          }
+
+          function prevSlide() {
+            showSlides((slideIndex -= 1));
+          }
+
+          function currentSlide(n) {
+            showSlides((slideIndex = n));
+          }
+
+          function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("slide-mob");
+            const dots = document.getElementsByClassName("dot-mob");
+
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active-mob", "");
+            }
+
+            slides[slideIndex - 1].style.display = "flex";
+            dots[slideIndex - 1].className += " active-mob";
+          }
+        </script>
+        <div class="bottom-info-mob">
+          <div class="news-mob">Хочу первым узнавать новости</div>
+          <div class="email-right-info-block-down">
+            <input
+              class="text-field__input"
+              type="text"
+              name="Email"
+              id="Email"
+              placeholder="Введите Email"
+            />
+        </div>
+        <div class="areement-icon">
+          <input
+            class="agreement-icon-style"
+            type="checkbox"
+            id="scales"
+            name="scales"
+            checked
+          />
+          <div class="agreement-text">
+            Я согласен на обработку моих персональных данных
+          </div>
+        </div>
+        <div class="sub-button-mob">
+          <img class="follow-button-mob" src="follow-button.svg" alt="">
+        </div>
+        <div class="geo-mob">
+          <img class="geo-icon-mob" src="geo-icon.svg" alt="" />
+          <div class="geo-text-mob">Офис продаж:</div>
+        </div>
+        <div class="number-mob">
+          <div class="left-number-mob">+7 391</div>
+          <div class="right-number-mob">271-40-20</div>
+        </div>
+        <div class="adress-mob">
+          г. Красноярск, 
+ул. Молокова д. 1 копр. 2, оф. 153, 1 этаж
+        </div>
+        <div class="schedul-mob">
+          График работы офиса продаж:
+        </div>
+        <div class="work-time-mob">
+          В будни с 9:00 до 18:00 
+          Суббота, воскресенье выходной
+        </div>
+        <div class="social-icons">
+          <img src="vk-icon.png" alt="" />
+          <img src="youtube-icon.png" alt="" />
+          <img src="classmates-icon.png" alt="" />
+          <img src="telegramm-icon.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
